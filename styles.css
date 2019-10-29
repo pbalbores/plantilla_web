@@ -1,4 +1,4 @@
-h2,  h3, h4{
+h2,  h3, h4 {
   font-family: 'Montserrat', 'sans-serif';
   color: #ffffff;
 }
@@ -25,4 +25,8 @@ h2,  h3, h4{
 .footer {
     height: 200px;
     background-color: #2f4f4f;
+    display:flex ;
+    align-items: center;
+    padding-left:25px
+    
 }
