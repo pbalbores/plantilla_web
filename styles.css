@@ -1,4 +1,20 @@
-p{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+  font-family: 'Montserrat', 'sans-serif';
+  color: #ffffff;
+}
+h3 {
+    font-family:'Nunito', 'sans-serif';
+    color: #ffffff;
+}
+.encabezado {
+  height: 400px;
+  background-image: url(https://picsum.photos/id/350/1200/1200);
+  background-size: cover;
+  background-repeat: no-repeat;
+  imgwidth: 100%;
+  imgheight: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
