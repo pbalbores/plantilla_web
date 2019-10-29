@@ -17,9 +17,12 @@ h2,  h3, h4{
 }
 .navbar {
     height: 60px;
-    background-color: #6600ff ;
+    background-color: #663399 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.footer {
+    height: 200px;
+    background-color: #2f4f4f;
+}
