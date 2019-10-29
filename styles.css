@@ -8,7 +8,7 @@ h2,  h3, h4 {
 }
 p {
   font-family: 'Nunito', 'Sans-serif';
-  font-size:16px ;
+  font-size:14px ;
   color: #b3b3b3;
 }
 .card_title {
@@ -49,7 +49,30 @@ p {
     border-radius: 10px;
     background-color: red;  /*PRUEBA--ACORDARSE DE CAMBIAR*/
     margin: 25px;
+    
 } 
+
+.cards_content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+ 
+}
+.card_content_button {
+  width: 75px;
+  height: 30px;
+  position: relative;
+  left: 245px;
+  top: 100px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  background-color: #008080;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
 
 .footer {
     height: 200px;
