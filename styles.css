@@ -1,11 +1,8 @@
-h2 {
+h2,  h3, h4{
   font-family: 'Montserrat', 'sans-serif';
   color: #ffffff;
 }
-h3 {
-    font-family:'Nunito', 'sans-serif';
-    color: #ffffff;
-}
+
 .encabezado {
   height: 400px;
   background-image: url(https://picsum.photos/id/350/1200/1200);
@@ -22,6 +19,7 @@ h3 {
     height: 60px;
     background-color: #6600ff ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
