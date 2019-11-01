@@ -29,7 +29,7 @@ p {
   background-image: url(https://picsum.photos/id/350/1200/1200);
   height:400px ;
   width: 100%;
-  background-size: ;
+  /*background-size: ;*/
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -60,6 +60,9 @@ p {
   box-shadow: 0.5px 0.5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+.image_card {
+  border-radius: 10px 10px 0px 0px;
+}
 .cards_content {
   padding: 15px;
   display: flex;
