@@ -44,6 +44,9 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.navbar>h4 {
+  padding: 100px;
+}
 .cuerpo {
   /*padding-left: 100px;*/
   display: flex;
