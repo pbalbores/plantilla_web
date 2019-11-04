@@ -125,4 +125,5 @@ p {
 .navbar>h4:hover {
   font-size: 18px;
   color: #ff6600;
+  cursor: pointer;
 }
