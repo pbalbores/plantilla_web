@@ -27,7 +27,7 @@ p {
 .encabezado {
   height: 400px;
   background-image: url(https://picsum.photos/id/350/1200/1200);
-  height:400px ;
+  height: 400px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -102,5 +102,22 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .cards {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .image_card {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .card_content_button {
+    position: relative;
+    left: 150px;
+    top: 150px;
   }
 }
