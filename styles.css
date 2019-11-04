@@ -29,7 +29,7 @@ p {
   background-image: url(https://picsum.photos/id/350/1200/1200);
   height:400px ;
   width: 100%;
-  /*background-size: ;*/
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -41,12 +41,12 @@ p {
   height: 60px;
   background-color: #663399;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-.navbar>h4 {
+/*.navbar>h4 {
   padding: 100px;
-}
+}*/
 .cuerpo {
   /*padding-left: 100px;*/
   display: flex;
